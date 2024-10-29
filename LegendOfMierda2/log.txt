@@ -1,10 +1,10 @@
-2024-10-29 11:24:39 UTC
+2024-10-29 11:56:50 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.2.24090902
 
-Early init took 0.05s
+Early init took 0.06s
 Loading error handling took 0.03s
-Loading script took 0.16s
+Loading script took 0.15s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.04s
@@ -13,7 +13,7 @@ Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\ssuro\\AppData\\Roaming/RenPy/backups\\LegendOfMierda2':
-Dump and make backups took 0.05s
+Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.04s
@@ -26,12 +26,12 @@ Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.41s
+Interface start took 0.36s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -61,6 +61,13 @@ Traceback (most recent call last):
   File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
     renpy.display.draw.draw_screen(surftree)
 AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
 AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
 Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
 Traceback (most recent call last):
@@ -541,213 +548,10 @@ Traceback (most recent call last):
   File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
     renpy.display.draw.draw_screen(surftree)
 AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
-Exception ignored in: 'renpy.gl2.gl2shader.UniformSampler2D.assign'
-Traceback (most recent call last):
-  File "C:\Users\ssuro\Downloads\renpy-8.3.2-sdk.7z\renpy-8.3.2-sdk\renpy\display\core.py", line 1388, in draw_screen
-    renpy.display.draw.draw_screen(surftree)
-AttributeError: 'renpy.gl2.gl2draw.GL2Draw' object has no attribute 'loader'
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 276: Line is indented, but the preceding with statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    igor "Necesisto imprintir tres papeles. Este posible?"
-    ^
+File "game/script.rpy", line 578: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Tue Oct 29 03:00:59 2024
+Tue Oct 29 14:50:49 2024
